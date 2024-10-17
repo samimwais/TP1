@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(black, rgb(33, 33, 200));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#TitreDufilm {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Arial', sans-serif;
+}
+#synopsis, #resume {
+    padding: 15px;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+#synopsis{
+    font-weight: bold;
+}
+#afficheFilm {
+    width: 100%;
+}
+.photoActeur {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#distribution {
+    font-size:22px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+ul{
+    padding: 10px;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+.nomActeur{
+    font-weight:bold;
+    font-size:22px;
+    font-family: 'Arial', sans-serif;
+}
+#autresFilms{
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top:10px;
+    font-family: 'Arial', sans-serif;
+}
+#Sources{
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top:10px;
+    font-family: 'Arial', sans-serif;
+}
+td ul {
+    margin: 0 auto;
+    padding-left: 30px; 
+}
+.nomPersonnage{
+    font-style: italic;
+    font-family: Helvetica, serif;
+}
+.lesSources{
+    font-family: 'Arial', sans-serif;
+}
+.lesFilms{
+    font-family: 'Arial', sans-serif;
+}
